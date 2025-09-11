@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Cavatappi PHP Framework</title>
+		<style>
+			:root {
+				color-scheme: light dark;
+			}
+
+			body {
+				background: light-dark(white, #036);
+				color: light-dark(#222, #eee);
+				font-family: system-ui, sans-serif;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 1rem;
+
+				>* {
+					margin-block: 0;
+					padding-block: 0;
+				}
+			}
+
+			h1 {
+				font-size: 2rem;
+			}
+
+			a {
+				color: light-dark(#369, #cc0);
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+
+			.byline {
+				color: light-dark(#555, #789);
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Cavatappi</h1>
+		<p>A nonmagical PHP framework for reducing copypasta.</p>
+		<p><a href="https://github.com/cavatappiphp">GitHub</a></p>
+		<p class="byline">An oddEvan project</p>
+	</body>
+
+</html>
